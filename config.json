@@ -167,7 +167,11 @@
     },
     {
       "type": "text",
-      "action": "output"
+      "action": "output",
+      "args": {
+        "outputDir": "./publish",
+        "wantedList": ["cn"]
+      }
     }
   ]
 }
