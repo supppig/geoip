@@ -115,7 +115,7 @@ jobs:
           done
 
       - name: Remove some files to avoid publishing to GitHub release
-        run: rm -rf ./publish/*.{gz,zip} ./publish/text
+        run: rm -rf ./publish/*.{gz,zip}
 
       - name: Upload files to GitHub release
         uses: svenstaro/upload-release-action@v2
