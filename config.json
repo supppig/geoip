@@ -167,6 +167,10 @@
     },
     {
       "type": "text",
+      "action": "output"
+    },
+    {
+      "type": "text",
       "action": "output",
       "args": {
         "outputDir": "./publish",
